@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="MotoQuiz"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="15dp"
+        android:background="#FF5722"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:backgroundTint="#15CF1D"
+        />
+
+    <ImageView
+        android:layout_width="291dp"
+        android:layout_height="360dp"
+        android:src="@drawable/lamborghini"
+        android:layout_centerInParent="true"/>
+
+
+
+</RelativeLayout>
